@@ -1,0 +1,16 @@
+.Search{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.Search input{
+    padding: 10px 50px;
+}
+.Search button{
+    padding: 10px 50px;
+    background-color: orange;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
