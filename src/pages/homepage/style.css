@@ -1,0 +1,6 @@
+.su{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+}

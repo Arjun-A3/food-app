@@ -7,6 +7,7 @@ import React from "react";
 import './App.css';
 import Homepage from "./pages/homepage";
 
+
 //jsx
 //element -> it is the tag used inside the return startement  (div,...)
 //properties -> classname,id..
@@ -21,7 +22,7 @@ import Homepage from "./pages/homepage";
 const App = () =>{
   return(
     <div className="App">
-      <Homepage />
+      <Homepage/>
     </div>
   )
 }

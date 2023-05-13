@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './style.css';
 
-const Search = (prop) => {
-    const {C2Pbridge} = prop;
+const Search = (props) => {
+    const {C2Pbridge} = props;
     const [inputValue, setInputValue] = useState('')  
     const handleInputValue = (event)=>{
         const{value}= event.target;
@@ -18,5 +18,6 @@ const Search = (prop) => {
             <button type="submit">Search</button>
         </form>
     )
+    
 }
 export default Search;
